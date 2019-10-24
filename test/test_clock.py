@@ -1,6 +1,7 @@
 import unittest
-import clock
 from unittest.mock import patch
+
+import clock
 
 
 class MyTestCase(unittest.TestCase):
