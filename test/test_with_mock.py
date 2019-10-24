@@ -1,6 +1,7 @@
 import unittest
-from temperature_tracker import TemperatureTracker
 from unittest.mock import Mock
+
+from temperature_tracker import TemperatureTracker
 
 
 class TestWithMock(unittest.TestCase):

@@ -1,7 +1,8 @@
 import unittest
-from temperature_tracker import TemperatureTracker
-from temperature_sensor import TemperatureSensor
 from unittest.mock import patch
+
+from temperature_sensor import TemperatureSensor
+from temperature_tracker import TemperatureTracker
 
 results = [12, 22]
 
